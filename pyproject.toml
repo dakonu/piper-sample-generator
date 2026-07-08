@@ -39,7 +39,7 @@ platforms = ["any"]
 zip-safe  = true
 
 [tool.setuptools.packages.find]
-include = ["piper_sample_generator*"]
+include = ["piper_sample_generator*", "piper_train*"]
 
 [tool.setuptools.package-data]
 piper_sample_generator = ["impulses/*.wav"]
